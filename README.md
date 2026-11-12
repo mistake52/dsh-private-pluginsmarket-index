@@ -18,6 +18,9 @@ DeepSeek Harness 的自定义插件市场只读公开仓库，而插件源码仓
 https://raw.githubusercontent.com/mistake52/dsh-private-pluginsmarket-index/main/index.json
 ```
 
+## 镜像
+`https://ghproxy.net/https://raw.githubusercontent.com/mistake52/dsh-private-pluginsmarket-index/main/index.json`。
+
 大陆网络 raw 超时时可换 jsDelivr 镜像：
 `https://cdn.jsdelivr.net/gh/mistake52/dsh-private-pluginsmarket-index@<commit>/index.json`。
 
