@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <title>Qt development skills</title>
+  <rect width="256" height="256" rx="56" fill="#0d2b2a"/>
+  <path d="M34 150h30" stroke="#3fbf9f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M70 58c-16 10-26 26-26 46s10 36 26 46" stroke="#67e0bd" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <path d="M122 58c16 10 26 26 26 46s-10 36-26 46" stroke="#67e0bd" stroke-width="14" stroke-linecap="round" fill="none"/>
+  <circle cx="150" cy="150" r="7" fill="#a9f0dc"/>
+  <path d="M166 150h46" stroke="#a9f0dc" stroke-width="14" stroke-linecap="round"/>
+  <path d="M150 196h62" stroke="#2f8f77" stroke-width="10" stroke-linecap="round"/>
+</svg>

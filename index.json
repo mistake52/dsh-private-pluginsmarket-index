@@ -1,0 +1,372 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Private DSH plugins",
+    "zh": "私有 DSH 插件市场"
+  },
+  "description": {
+    "en": "Personal plugin set for DeepSeek Harness: embedded bench tooling, knowledge workflow, interface additions, and model channels.",
+    "zh": "个人自用的 DeepSeek Harness 插件集：嵌入式台架工具、知识工作流、界面增强与模型通道。"
+  },
+  "metadata": {
+    "categories": {
+      "embedded": {
+        "title": {
+          "en": "Embedded",
+          "zh": "嵌入式"
+        }
+      },
+      "knowledge": {
+        "title": {
+          "en": "Knowledge",
+          "zh": "知识库"
+        }
+      },
+      "skill": {
+        "title": {
+          "en": "Skills",
+          "zh": "技能包"
+        }
+      },
+      "ui": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面"
+        }
+      },
+      "model": {
+        "title": {
+          "en": "Model channels",
+          "zh": "模型通道"
+        }
+      }
+    },
+    "labels": {
+      "local": {
+        "title": {
+          "en": "Maintained here",
+          "zh": "本仓维护"
+        }
+      },
+      "third-party": {
+        "title": {
+          "en": "Third-party",
+          "zh": "第三方上游"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-jev-kb",
+      "title": {
+        "en": "JEV Knowledge Filter",
+        "zh": "JEV 知识库过滤"
+      },
+      "description": {
+        "en": "Runs a local Jev-compatible Laya multilingual decision service, filters low-value kb_search hits before they reach the model, and exposes the service over Tailscale.",
+        "zh": "本机部署 Jev 兼容的 Laya multilingual 决策服务，在 kb_search 结果进入上下文前筛掉低价值条目，并通过 Tailscale 对外提供 API。"
+      },
+      "icon": "icons/dsh-jev-kb.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-jev-kb"
+      },
+      "metadata": {
+        "category": "knowledge",
+        "labels": [
+          "local"
+        ],
+        "keywords": [
+          "kb",
+          "laya",
+          "filter",
+          "tailscale"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-jev-kb"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "@axiaohungry/dsh-llm-workbuddy",
+      "title": {
+        "en": "WorkBuddy channel",
+        "zh": "WorkBuddy 模型通道"
+      },
+      "description": {
+        "en": "Adds WorkBuddy models to DeepSeek Harness through a WorkBuddy API key or sign-in token, including reverse-proxy calls and credit lookup.",
+        "zh": "通过 WorkBuddy API Key 或 WorkBuddy 登录令牌为 DeepSeek Harness 接入 WorkBuddy 模型（含反向代理调用与积分查询）。"
+      },
+      "icon": "icons/axiaohungry__dsh-llm-workbuddy.svg",
+      "author": "Axiaohungry",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-llm-workbuddy"
+      },
+      "metadata": {
+        "category": "model",
+        "labels": [
+          "third-party"
+        ],
+        "keywords": [
+          "llm",
+          "provider",
+          "workbuddy",
+          "workbuddy-api"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.3.27",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-llm-workbuddy"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-plugin-env",
+      "title": {
+        "en": "Plugin Env (Conda)",
+        "zh": "插件环境（Conda）"
+      },
+      "description": {
+        "en": "Declarative task-plugin → Conda environment mapping: ensure_plugin_env lazily creates mapped environments, run_in_plugin_env executes commands with injected environment variables, and installs into base are discouraged by guidance.",
+        "zh": "声明式「任务插件 → Conda 环境」映射：ensure_plugin_env 惰性创建映射环境，run_in_plugin_env 以环境变量注入在指定环境中执行命令，并通过常驻指引阻止把依赖装进 base。"
+      },
+      "icon": "icons/dsh-plugin-env.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-plugin-env"
+      },
+      "metadata": {
+        "category": "embedded",
+        "labels": [
+          "local"
+        ],
+        "keywords": [
+          "conda",
+          "env",
+          "python",
+          "isolation"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.2.0",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-plugin-env"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-ppt-master",
+      "title": {
+        "en": "PPT Master",
+        "zh": "PPT Master"
+      },
+      "description": {
+        "en": "Office preset add-on: registers the ppt-master skill, runs its Python inside a dsh-plugin-env Conda environment, and adds a Settings page for image-generation, image-search, and narration credentials.",
+        "zh": "Office 预设扩展：注册 ppt-master 技能，让其 Python 在 dsh-plugin-env 的 Conda 环境里执行，并提供生图 / 图库 / 旁白凭据的配置页。"
+      },
+      "icon": "icons/dsh-ppt-master.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-ppt-master"
+      },
+      "metadata": {
+        "category": "ui",
+        "labels": [
+          "local",
+          "third-party"
+        ],
+        "keywords": [
+          "ppt",
+          "pptx",
+          "slides",
+          "office"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-ppt-master"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-skill-init",
+      "title": {
+        "en": "Skill Initializer",
+        "zh": "Skill 初始化器"
+      },
+      "description": {
+        "en": "Run /init in a project to set up Agent collaboration files, the knowledge base and code conventions: create or merge AGENT.md (entry index and feedback rules) plus a .kb/ skeleton (index/manifest/modules/decisions/changelog). manifest.json records the Git branch and commit. /init also generates a per-project code-style skill at .dsh/skills/code-style/ from the detected tech stack (summaries and per-chapter chunks of every Google Style guide, plus local formatter configs, never committed). skill_kb_check verifies consistency, skill_kb_record registers knowledge write-backs.",
+        "zh": "通过 /init 在项目里初始化 Agent 协作所需的规则文件、知识库与代码规范：生成/合并 AGENT.md（入口索引与回灌规则）与 .kb/ 骨架（索引/manifest/模块/决策/回灌记录），manifest.json 记录 Git 分支与提交；按项目实际技术栈生成代码规范技能 .dsh/skills/code-style/（Google Style 全部指南的摘要 + 章节分块 + 本机格式化配置，不进版本库）；skill_kb_check 校验一致性，skill_kb_record 登记回灌。"
+      },
+      "icon": "icons/dsh-skill-init.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-skill-init"
+      },
+      "metadata": {
+        "category": "skill",
+        "labels": [
+          "local"
+        ],
+        "keywords": [
+          "init",
+          "agent-md",
+          "knowledge-base",
+          "code-style"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.4.1",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-skill-init"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-vision-bench",
+      "title": {
+        "en": "Vision bench",
+        "zh": "Vision 模式台架"
+      },
+      "description": {
+        "en": "Embedded bench mode: Keil build and logs, confirmed OpenOCD flashing, serial frame subscription, Modbus reads and approved writes, HMI point tables and visualization, plus a dedicated Vision agent preset.",
+        "zh": "嵌入式台架：Keil 编译与日志、OpenOCD 烧录确认、串口报文订阅、Modbus 读点与受控写点（Agent 写点需界面批准）、上位机点表与可视化，并安装「Vision模式」Agent 预设。"
+      },
+      "icon": "icons/dsh-vision-bench.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-vision-bench"
+      },
+      "metadata": {
+        "category": "embedded",
+        "labels": [
+          "local"
+        ],
+        "keywords": [
+          "keil",
+          "openocd",
+          "modbus",
+          "serial",
+          "hmi",
+          "debug"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.40.0",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/dsh-vision-bench"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "qt-development-skills",
+      "title": {
+        "en": "qt-development-skills"
+      },
+      "description": {
+        "en": "Qt agentic development skills and the Qt documentation MCP server, packaged as a DeepSeek Harness bundle."
+      },
+      "icon": "icons/qt-development-skills.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/qt-development-skills"
+      },
+      "metadata": {
+        "category": "skill",
+        "labels": [
+          "third-party"
+        ],
+        "keywords": [
+          "qt",
+          "qml",
+          "cpp",
+          "skills",
+          "mcp"
+        ]
+      },
+      "versions": [
+        {
+          "version": "1.8.0",
+          "publishTimestamp": 1794490871,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "path": "packages/qt-development-skills"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    }
+  ]
+}
