@@ -88,11 +88,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-jev-kb"
           },
           "engines": {
@@ -133,11 +133,11 @@
       "versions": [
         {
           "version": "1.3.27",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-llm-workbuddy"
           },
           "engines": {
@@ -177,11 +177,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-plugin-env"
           },
           "engines": {
@@ -222,12 +222,57 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-ppt-master"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-rag-client",
+      "title": {
+        "en": "RAG client",
+        "zh": "RAG 客户端"
+      },
+      "description": {
+        "en": "Local knowledge-base RAG client: parsing/chunking, SQLite/BM25 retrieval, evidence rendering and the rag_* data-plane tools. Embeddings and rerank use an OpenAI-compatible API (whoever you fill in is who you use; no degradation).",
+        "zh": "本地知识库 RAG 客户端：解析分块、SQLite/BM25 检索、证据渲染与 rag_* 数据面工具；向量化与重排走 OpenAI 兼容 API（填谁用谁，不降级）。"
+      },
+      "icon": "icons/dsh-rag-client.svg",
+      "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "packages/dsh-rag-client"
+      },
+      "metadata": {
+        "category": "knowledge",
+        "labels": [
+          "local"
+        ],
+        "keywords": [
+          "rag",
+          "kb",
+          "embeddings",
+          "rerank",
+          "sqlite"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794560389,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
+            "path": "packages/dsh-rag-client"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1 <0.3.0-0"
@@ -266,11 +311,11 @@
       "versions": [
         {
           "version": "0.4.1",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-skill-init"
           },
           "engines": {
@@ -312,11 +357,11 @@
       "versions": [
         {
           "version": "0.40.0",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/dsh-vision-bench"
           },
           "engines": {
@@ -355,11 +400,11 @@
       "versions": [
         {
           "version": "1.8.0",
-          "publishTimestamp": 1794490871,
+          "publishTimestamp": 1794560389,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "672556d6c03d082a5f34f6bbec9913094481199a",
+            "commit": "1c5f899ad50ac56bae377cb48bbe8fb9fe787f39",
             "path": "packages/qt-development-skills"
           },
           "engines": {
