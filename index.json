@@ -88,11 +88,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-jev-kb"
           },
           "engines": {
@@ -133,11 +133,11 @@
       "versions": [
         {
           "version": "1.3.27",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-llm-workbuddy"
           },
           "engines": {
@@ -177,11 +177,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-plugin-env"
           },
           "engines": {
@@ -222,11 +222,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-ppt-master"
           },
           "engines": {
@@ -266,12 +266,12 @@
       },
       "versions": [
         {
-          "version": "0.1.1",
-          "publishTimestamp": 1794681681,
+          "version": "0.1.2",
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-rag-client"
           },
           "engines": {
@@ -311,11 +311,11 @@
       "versions": [
         {
           "version": "0.4.1",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-skill-init"
           },
           "engines": {
@@ -357,11 +357,11 @@
       "versions": [
         {
           "version": "0.40.0",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/dsh-vision-bench"
           },
           "engines": {
@@ -400,11 +400,11 @@
       "versions": [
         {
           "version": "1.8.0",
-          "publishTimestamp": 1794681681,
+          "publishTimestamp": 1794683094,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "d44ff81448edd17852d9fb9f8756991710c92494",
+            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
             "path": "packages/qt-development-skills"
           },
           "engines": {
