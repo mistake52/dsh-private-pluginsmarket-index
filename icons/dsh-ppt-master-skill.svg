@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="PPT Master Skill">
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="#1b2440"/>
+  <rect x="16" y="18" width="32" height="22" rx="3" fill="#f4f7ff"/>
+  <rect x="12" y="44" width="40" height="3" rx="1.5" fill="#8fb4ff"/>
+  <path d="M24 26h16M24 31h10" stroke="#4a63a8" stroke-width="2" stroke-linecap="round"/>
+  <path d="M48 12l1.6 4.1 4.1 1.6-4.1 1.6L48 23.4l-1.6-4.1-4.1-1.6 4.1-1.6z" fill="#ffd166"/>
+  <circle cx="50" cy="46" r="2.4" fill="#62d6c3"/>
+</svg>

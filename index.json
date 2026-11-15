@@ -88,11 +88,11 @@
       "versions": [
         {
           "version": "0.2.1",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-jev-kb"
           },
           "engines": {
@@ -133,11 +133,11 @@
       "versions": [
         {
           "version": "1.3.27",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-llm-workbuddy"
           },
           "engines": {
@@ -177,11 +177,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-plugin-env"
           },
           "engines": {
@@ -197,8 +197,8 @@
         "zh": "PPT Master"
       },
       "description": {
-        "en": "Office preset add-on: registers the ppt-master skill, runs its Python inside a dsh-plugin-env Conda environment, and adds a Settings page for image-generation, image-search, and narration credentials.",
-        "zh": "Office 预设扩展：注册 ppt-master 技能，让其 Python 在 dsh-plugin-env 的 Conda 环境里执行，并提供生图 / 图库 / 旁白凭据的配置页。"
+        "en": "Office preset add-on: registers the ppt-master skill (market bundle dsh-ppt-master-skill, or an explicit skillDir), runs its Python inside a dsh-plugin-env Conda environment, and adds a Settings page for image-generation, image-search, and narration credentials.",
+        "zh": "Office 预设扩展：注册 ppt-master 技能（市场包 dsh-ppt-master-skill 或手动指定的 skillDir），让其 Python 在 dsh-plugin-env 的 Conda 环境里执行，并提供生图 / 图库 / 旁白凭据的配置页。"
       },
       "icon": "icons/dsh-ppt-master.svg",
       "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
@@ -221,12 +221,12 @@
       },
       "versions": [
         {
-          "version": "0.1.0",
-          "publishTimestamp": 1794717784,
+          "version": "0.2.0",
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-ppt-master"
           },
           "engines": {
@@ -267,11 +267,11 @@
       "versions": [
         {
           "version": "0.1.2",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-rag-client"
           },
           "engines": {
@@ -311,11 +311,11 @@
       "versions": [
         {
           "version": "0.4.2",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-skill-init"
           },
           "engines": {
@@ -356,12 +356,12 @@
       },
       "versions": [
         {
-          "version": "0.40.1",
-          "publishTimestamp": 1794717784,
+          "version": "0.40.2",
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/dsh-vision-bench"
           },
           "engines": {
@@ -400,12 +400,57 @@
       "versions": [
         {
           "version": "1.8.0",
-          "publishTimestamp": 1794717784,
+          "publishTimestamp": 1794725307,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
             "path": "packages/qt-development-skills"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0-0"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-ppt-master-skill",
+      "title": {
+        "en": "PPT Master Skill",
+        "zh": "PPT Master 技能"
+      },
+      "description": {
+        "en": "The upstream ppt-master workflow (SKILL.md, scripts, templates, references) as a DSH skill bundle. Install it together with the dsh-ppt-master adapter; the Office preset registers the skill and runs its Python through dsh-plugin-env.",
+        "zh": "上游 ppt-master 工作流（SKILL.md、脚本、模板、参考文档）的 DSH 技能包。与 dsh-ppt-master 适配层一起安装，Office 预设会注册该技能，其 Python 通过 dsh-plugin-env 执行。"
+      },
+      "icon": "icons/dsh-ppt-master-skill.svg",
+      "homepage": "https://github.com/hugohe3/ppt-master",
+      "repository": {
+        "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+        "directory": "vendors/ppt-master"
+      },
+      "metadata": {
+        "category": "skill",
+        "labels": [
+          "third-party"
+        ],
+        "keywords": [
+          "ppt",
+          "pptx",
+          "slides",
+          "office",
+          "skill"
+        ]
+      },
+      "versions": [
+        {
+          "version": "6.8.0",
+          "publishTimestamp": 1794725307,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
+            "commit": "69ac6a465472bd6ad5718a5a4e7a6473cb69f0fc",
+            "path": "vendors/ppt-master"
           },
           "engines": {
             "dsh": ">=0.2.1-rc.1 <0.3.0-0"
