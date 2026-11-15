@@ -64,8 +64,8 @@
         "zh": "JEV 知识库过滤"
       },
       "description": {
-        "en": "Runs a local Jev-compatible Laya multilingual decision service, filters low-value kb_search hits before they reach the model, and exposes the service over Tailscale.",
-        "zh": "本机部署 Jev 兼容的 Laya multilingual 决策服务，在 kb_search 结果进入上下文前筛掉低价值条目，并通过 Tailscale 对外提供 API。"
+        "en": "Runs a local Jev-compatible Laya multilingual decision service, filters low-value knowledge-base retrieval hits (rag_search / kb_search) before they reach the model, and exposes the service over Tailscale.",
+        "zh": "本机部署 Jev 兼容的 Laya multilingual 决策服务，在知识库检索结果（rag_search / kb_search）进入上下文前筛掉低价值条目，并通过 Tailscale 对外提供 API。"
       },
       "icon": "icons/dsh-jev-kb.svg",
       "homepage": "https://github.com/mistake52/dsh-private-pluginsmarket#readme",
@@ -87,12 +87,12 @@
       },
       "versions": [
         {
-          "version": "0.2.0",
-          "publishTimestamp": 1794683094,
+          "version": "0.2.1",
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-jev-kb"
           },
           "engines": {
@@ -133,11 +133,11 @@
       "versions": [
         {
           "version": "1.3.27",
-          "publishTimestamp": 1794683094,
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-llm-workbuddy"
           },
           "engines": {
@@ -177,11 +177,11 @@
       "versions": [
         {
           "version": "0.2.0",
-          "publishTimestamp": 1794683094,
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-plugin-env"
           },
           "engines": {
@@ -222,11 +222,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794683094,
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-ppt-master"
           },
           "engines": {
@@ -267,11 +267,11 @@
       "versions": [
         {
           "version": "0.1.2",
-          "publishTimestamp": 1794683094,
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-rag-client"
           },
           "engines": {
@@ -310,12 +310,12 @@
       },
       "versions": [
         {
-          "version": "0.4.1",
-          "publishTimestamp": 1794683094,
+          "version": "0.4.2",
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-skill-init"
           },
           "engines": {
@@ -356,12 +356,12 @@
       },
       "versions": [
         {
-          "version": "0.40.0",
-          "publishTimestamp": 1794683094,
+          "version": "0.40.1",
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/dsh-vision-bench"
           },
           "engines": {
@@ -400,11 +400,11 @@
       "versions": [
         {
           "version": "1.8.0",
-          "publishTimestamp": 1794683094,
+          "publishTimestamp": 1794717784,
           "source": {
             "type": "git",
             "url": "https://github.com/mistake52/dsh-private-pluginsmarket",
-            "commit": "ee8dfb5451780f389ceb292fc49235e4628cbc1c",
+            "commit": "6013701cd12c0ab003ec4ed61fc6112c9d90de5f",
             "path": "packages/qt-development-skills"
           },
           "engines": {
